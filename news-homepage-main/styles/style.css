@@ -1,0 +1,78 @@
+
+body {
+    font-family: "Inter regular";
+} 
+
+
+/* Nav bar  */
+.nav-item {
+    padding: 0 1rem;
+    margin-right: 1rem;
+}
+
+.row {
+    margin: 0 5rem;
+    padding: 2rem 1rem;
+}
+.main-img {
+    width: 100%;
+    padding: 0rem 1rem;
+}
+
+/* New Section  */
+.new-section {
+background-color:  hsl(240, 100%, 5%);
+color:hsl(36, 100%, 99%);
+padding: 1.5rem 1.2rem;
+}
+h3 {
+    color:hsl(35, 77%, 62%);                                            /* Soft orange */
+}
+h6 {
+    font-family: "Inter Bold";
+    /* font-weight: bold; */
+}
+
+.new-section p {
+    font-size:smaller;
+    color:rgb(187, 186, 186);
+}
+/* Dark grayish blue hsl(236, 13%, 42%) */
+
+.below-img {
+    display: inline-block;
+    padding: 1rem;
+    color:rgb(59, 62, 66);
+}
+.below-img h1 {
+    font-family: "Inter ExtraBold";
+    font-weight: 900;
+    color: hsl(240, 100%, 5%);
+}
+.btn {
+    background-color: hsl(5, 85%, 63%);
+    color:whitesmoke;
+}
+.btn:hover {
+    background-color: hsl(240, 100%, 5%);
+    color:whitesmoke;
+}
+
+.small-img {
+    width:30%;
+    float:left;
+    padding: 0.5rem 1rem;
+}
+.num {
+    font-size: 25px;
+    color:gray;
+    padding: 5px 10px;
+}
+.small-heading {
+    display:inline-block;
+    color:rgb(7, 7, 23);
+    font-family: "Inter Bold";
+    font-weight: 800;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
