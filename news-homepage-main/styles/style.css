@@ -5,14 +5,25 @@ body {
 
 
 /* Nav bar  */
+
+.navbar-brand {
+    margin-left: 7rem;
+}
 .nav-item {
-    padding: 0 1rem;
-    margin-right: 1rem;
+    padding: 0 0.8rem;
 }
 
+.navbar-nav {
+    margin-right: 4rem;
+}
+.nav-link:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+/* Title  */
 .row {
     margin: 0 5rem;
-    padding: 2rem 1rem;
+    padding: 2rem 0;
 }
 .main-img {
     width: 100%;
@@ -25,20 +36,24 @@ background-color:  hsl(240, 100%, 5%);
 color:hsl(36, 100%, 99%);
 padding: 1.5rem 1.2rem;
 }
-h3 {
+/* New heading  */
+.new-section h3 {
     color:hsl(35, 77%, 62%);                                            /* Soft orange */
 }
-h6 {
+/* Small heading in new section  */
+.new-section h6 {
     font-family: "Inter Bold";
-    /* font-weight: bold; */
+}
+.new-section h6:hover {
+    color:hsl(35, 77%, 62%);
 }
 
 .new-section p {
     font-size:smaller;
     color:rgb(187, 186, 186);
 }
-/* Dark grayish blue hsl(236, 13%, 42%) */
 
+/* Below Image Section  */
 .below-img {
     display: inline-block;
     padding: 1rem;
@@ -58,21 +73,45 @@ h6 {
     color:whitesmoke;
 }
 
+/* Three Small Images */
 .small-img {
-    width:30%;
+    width:35%;
     float:left;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.8rem;
 }
 .num {
     font-size: 25px;
     color:gray;
-    padding: 5px 10px;
+    padding: 5px 3px;
 }
 .small-heading {
-    display:inline-block;
+    display:block;
     color:rgb(7, 7, 23);
     font-family: "Inter Bold";
     font-weight: 800;
+    padding: 3px;
 }
+.small-heading:hover {
+    color:hsl(35, 77%, 62%);
+}
+.desc {
+    padding-left: 10px;
+}
+
+/* Media Queries */
+@media (max-width: 375px) {
+    .navbar {
+        margin-right: 3rem;
+    }
+    .navbar-brand {
+        margin-left: 3rem;
+    }
+    .row {
+        margin: 0.7rem;
+    }
+    
+}
+
+/* Footer */
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
