@@ -1,0 +1,84 @@
+body {
+    background-image: radial-gradient(circle, hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+    font-family: "Inter Bold";
+    color: #fff;
+}
+
+
+/* Main-container */
+.game {
+
+    font-size: 2rem;
+    margin: 0.5rem auto;
+    line-height: 2.4rem;
+    border: solid #fff;
+    border-radius: 1rem;
+    padding: 0.2rem 3rem;
+    width:50%;
+
+}
+.hero-text {
+    padding: 1rem 1rem;
+
+}
+.score-cont {
+    background-color: #fff;
+    color:hsl(237, 49%, 15%);
+    display: inline-block;
+    width: 8rem;
+    height: 8rem;
+    padding:5px 25px;
+    border-radius: 1rem;
+    margin: 0.5rem 2rem;
+}
+
+.play {
+    width: 30%;
+    margin: 1rem auto;
+    background-image: url(../images/bg-triangle.svg);
+    background-repeat: no-repeat;
+    background-position: 20px 25px;
+}
+
+.container-fluid {
+    width: 100%;
+    display: flex;
+    margin-bottom: 8.5rem;
+    justify-content: space-between;
+
+}
+.paper-cont, .scissor-cont, .rock-cont {
+    display: flex;
+    height:100px ;
+    width: 100px;
+    padding: 20px 25px;
+    background-color: wheat;
+    border: 10px solid orange;
+    border-radius: 10rem;
+}
+
+.rock-cont {
+    margin: 0 auto;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
