@@ -14,7 +14,8 @@ body {
     border: solid #fff;
     border-radius: 1rem;
     padding: 0.2rem 3rem;
-    width:50%;
+    width:max-content;
+    display:flex;
 
 }
 .hero-text {
@@ -39,6 +40,7 @@ body {
 
 .play {
     width: 30%;
+    aspect-ratio: 2/3;
     margin: 1rem auto;
     background-image: url(../images/bg-triangle.svg);
     background-repeat: no-repeat;
@@ -82,15 +84,23 @@ body {
     text-align: center;
 }
 
-@media (max-width: 765px) {
+@media (max-width: 768px) {
     .game {
+        width: max-content;
         display: flex;
+        justify-content: space-between;
+        margin: 2rem auto;
     }
     .hero-text{
-        padding: 0.5rem;
+        padding: auto;
     }
     .result {
         margin: 0 auto;
+        padding: auto;
+    }
+    .play {
+        display: flexbox;
+        width: max-content;
     }
 }
 
