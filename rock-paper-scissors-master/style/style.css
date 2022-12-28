@@ -58,7 +58,7 @@ body {
     width: 100px;
     padding: 20px 25px;
     background-color: wheat;
-    border: 10px solid orange;
+    border: 10px solid rgb(255, 166, 0);
     border-radius: 10rem;
 }
 
@@ -66,11 +66,33 @@ body {
     margin: 0 auto;  
 }
 
-.Highlight {
-    border-color: gold;
+.highlight {
+    border: gold;
+    box-shadow: coral;
 }
 
+.btn{
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+}
 
+.modal-content {
+    color:hsl(237, 37%, 11%);
+    text-align: center;
+}
+
+@media (max-width: 765px) {
+    .game {
+        display: flex;
+    }
+    .hero-text{
+        padding: 0.5rem;
+    }
+    .result {
+        margin: 0 auto;
+    }
+}
 
 
 

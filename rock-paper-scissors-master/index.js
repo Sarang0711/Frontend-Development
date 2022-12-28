@@ -2,13 +2,17 @@
 // console.log(gameIcon);
 let score = 0;
 
-document.querySelectorAll(".game-cont").forEach(img => img.addEventListener("click", ()=> {
-    var userInput = img.classList[0]; 
+document.querySelectorAll(".game-cont").forEach(div => div.addEventListener("click", ()=> {
+    var userInput = div.classList[0]; 
     // points to first class of element
-    // console.log(clickIcon);
-    // userInput(clickIcon);
+    // console.log(userInput);
 
-    // var score = 0;
+    
+    var p = document.querySelector("."+ userInput).classList.add("highlight");
+    setTimeout(() => {
+        document.querySelector("."+ userInput).classList.remove("highlight");
+    }, 200);
+    
 
     var randInt = Math.floor(Math.random()*3 + 1);
 // console.log(randInt);
@@ -74,30 +78,3 @@ function winner(user, comp) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// img.classList.add("highlight");
-    // var p = img.classList;
-    // console.log("after adding: " + p);
-    // setTimeout((q) => {
-        // var p = img.classList;
-    
-        // img.classList.remove("hightlight");
-    // }, 100);
-    // console.log("after remove: " + p);
